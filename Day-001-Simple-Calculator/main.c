@@ -5,16 +5,20 @@
 
 int main(void){
 
-int32_t num1=15,num2=4;
+int32_t num1=0,num2=0;
 
-long long int result;
+int operation = 0;
 
-printf("%d\n",funAdd(num1,num2));
-printf("%d\n",funSub(num1,num2));
-printf("%lld\n",funMult(num1,num2));
-printf("%f\n",funDiv(num1,num2));
-printf("%d\n",funMod(num1,num2));
+printf("Enter two numbers:\n");
+scanf("%d %d",&num1,&num2);
+printf("\n***---Result---***:\n\n");
+printf("Addition is: %d\n",funAdd(num1,num2));
+printf("Subtraction is: %d\n",funSub(num1,num2));
+printf("Multiplication is: %lld\n",funMult(num1,num2));
+printf("Division is: %lf\n",funDiv(num1,num2));
+printf("Modulas is: %d\n",funMod(num1,num2));
 
-
-    return 0;
+while(getchar() != '\n');
+getchar();
+return 0;
 }
