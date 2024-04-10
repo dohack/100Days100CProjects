@@ -1,8 +1,6 @@
 #include "temp.h"
 
 double userData = 0;
-char chooseUnit[10]; // Choose a reasonable size for your string
-
 int main(void) {
     printf("\t\t***Temperature converter (Celsius to Fahrenheit and vice versa)***\t\t\n");
 
@@ -18,9 +16,13 @@ int main(void) {
         double convertedTemp = fahrenheitToCelsius(userData);
         printf("Temperature in Celsius: %lf\n", convertedTemp);
     } else {
-        printf("Invalid choice.\n");
-        // Handle invalid input
+        printf("Invalid choice.\n"); // Handle invalid input
+       
     }
+
+    // Clear the input buffer and wait for user input
+    while(getchar() != '\n'); // Clear input buffer
+    getchar(); // Wait for user input
 
     return 0;
 }

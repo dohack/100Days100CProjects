@@ -6,7 +6,7 @@ void userInput(double *userData) {
     printf("You have Entered: %lf\n", *userData);
 }
 
-int choice() {
+int choice(void) {
     int choice;
     printf("Choose the unit:\n");
     printf("1. Celsius\n");

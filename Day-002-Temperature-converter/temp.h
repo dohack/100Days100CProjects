@@ -6,7 +6,7 @@
 #include<math.h>
 
 void userInput(double *userData);
-int choice();
+int choice(void);
 double celsiusToFahrenheit(double temp);
 double fahrenheitToCelsius(double temp);
 
