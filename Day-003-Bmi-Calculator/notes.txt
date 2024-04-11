@@ -1,0 +1,67 @@
+Classification	BMI range - kg/m2
+
+
+Severe Thinness	< 16
+Moderate Thinness	16 - 17
+Mild Thinness	17 - 18.5
+Normal	18.5 - 25
+Overweight	25 - 30
+Obese Class I	30 - 35
+Obese Class II	35 - 40
+Obese Class III	> 40
+
+
+Healthy BMI range: 18.5 kg/m2 - 25 kg/m2
+Healthy weight for the height: 59.9 kg - 81 kg
+BMI Prime: 0.8
+Ponderal Index: 11.1 kg/m
+
+
+
+Age
+
+Gender
+
+Height
+
+Weight
+
+
+
+under weight
+normal
+overweight
+obesity
+
+
+BMI formula
+
+Below are the equations used for calculating BMI in the International System of Units (SI) and the US customary system (USC) using a 5'10", 160-pound individual as an example:
+USC Units:
+BMI = 703 ×  	
+mass (lbs)
+height2 (in)
+	= 703 ×  	
+160
+702
+	= 22.96  	
+kg
+m2
+SI, Metric Units:
+BMI =  	
+mass (kg)
+height2 (m)
+	 =  	
+72.57
+1.782
+	 =  	22.90 	
+kg
+m2
+BMI Prime
+
+BMI prime is the ratio of a person's measured BMI to the upper limit of BMI that is considered "normal," by institutions such as the WHO and the CDC. Though it may differ in some countries, such as those in Asia, this upper limit, which will be referred to as BMIupper is 25 kg/m2.
+
+The BMI prime formula is:
+BMI prime =  	
+ BMI 
+25
