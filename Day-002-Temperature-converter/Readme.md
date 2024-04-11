@@ -55,10 +55,6 @@ Temperature in Fahrenheit: 89.600000
 
 ## Acknowledgments
 
-This project is inspired by the "100 Days, 100 C Projects" challenge and aims to enhance your skills in C programming, arithmetic operations, and user input handling.
+This project is inspired by the ["100 Days, 100 C Projects"](https://github.com/dohack/100Days100CProjects/) challenge and aims to enhance your skills in C programming, arithmetic operations, and user input handling.
 
 Happy coding and enjoy exploring the world of temperature conversions in C!
-
----
-
-Feel free to customize this README.md file further or add more specific instructions based on your preferences or requirements.
