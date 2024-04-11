@@ -1,6 +1,8 @@
 /*
 
-Simple BMI Calculator. To build this project Run this command 
+Day 003-Simple BMI Calculator.
+To build this project Run this command 
+
 "gcc src/* -Iinclude -o bmiCalculator"
 
 */

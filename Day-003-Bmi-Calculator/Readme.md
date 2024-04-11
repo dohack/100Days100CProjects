@@ -11,6 +11,7 @@ To use the BMI Calculator, follow these steps:
 3. Compile the source code on terminal or Command Prompt using "gcc src/* -Iinclude -o bmiCalculator".
 4. Run the executable file to calculate BMI. 
 
-```markdown
+
 ![Flow Chart](Flow_chart.png)
-```
+![State Diagram](State_Diagram.png)
+![Class Diagram](Class_Diagram.png)
