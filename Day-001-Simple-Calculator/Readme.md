@@ -43,7 +43,11 @@ To run the Simple Calculator program:
 
 ## Project Contributors
 
+<<<<<<< HEAD
 - [Ankit Kumar](https://www.linkedin.com/in/ankit-kumar-4585b5284/): Project Lead
+=======
+- [Ankit Kumar](https://www.linkedin.com/in/yourprofile): Project Lead
+>>>>>>> 5ed9304ad470b88e2ced017dc2696cde9cf87f1c
 
 ## Acknowledgments
 

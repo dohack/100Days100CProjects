@@ -17,6 +17,11 @@ The "100 Days, 100 C Projects" challenge is designed to:
 - Explore diverse concepts and techniques in C.
 - Build a portfolio of 100 projects showcasing your skills.
 - Foster creativity and problem-solving abilities.
+- Gain experience in creating and using Makefiles for project compilation and management.
+- Explore the benefits of CMake for building, testing, and packaging C programs across different platforms.
+
+This challenge offers a comprehensive learning experience in C programming, from basic syntax to advanced concepts, while also emphasizing the importance of efficient project management and development practices.
+
 
 ## How to Participate
 
