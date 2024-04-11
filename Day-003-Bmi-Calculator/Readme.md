@@ -1,6 +1,3 @@
-Certainly! Here's the additional information about BMI classification, healthy ranges, BMI formula, BMI Prime, and related calculations added to the README.md for the "Day-003-BMI-calculator" project:
-
----
 
 # BMI Calculator
 
@@ -25,9 +22,9 @@ The project follows the following folder structure:
 ## Data Structures
 
 ### userData Struct
-- `Age`: User's age (uint8_t).
-- `Height`: User's height in centimeters (uint8_t).
-- `Weight`: User's weight in kilograms (uint8_t).
+- `Age`: User's age in years (uint8_t).
+- `Height`: User's height in centimeters (float).
+- `Weight`: User's weight in kilograms (float).
 
 ### bodyType Struct
 - `underWeight`: Character representing underweight body type.
@@ -94,7 +91,3 @@ The flow chart illustrates the logic flow of the BMI calculator application. The
 Before coding, use ChatGPT to generate Mermaid code for Flow Chart, State Diagram, and Class Diagram. Paste the Mermaid code into [excalidraw](https://excalidraw.com) to generate the diagrams.
 
 Happy coding and enjoy building your BMI calculator app!
-
----
-
-Does this cover everything you wanted to add about BMI classification, healthy ranges, formulas, and related calculations?

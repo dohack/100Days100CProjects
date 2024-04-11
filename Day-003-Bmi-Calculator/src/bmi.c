@@ -1,31 +1,36 @@
 #include "bmi.h"
+#include <stdio.h>
 
-typedef struct 
-{
-  uint8_t Age;
-  uint8_t Height;
-  uint8_t Weight;
+void calculateBMI(userData *user) {
+    // Calculate BMI using the formula: weight (kg) / (height (m))^2
+    user->BMI = user->Weight / ((float)user->Height * (float)user->Height);
+}
 
-} userData;
+void determineClassification(userData *user, obesityType *obesity) {
+    // Determine the BMI classification based on the calculated BMI value
+    if (user->BMI < obesity->SevereThinness) {
+        user->Classification = obesity->underWeight;
+    } else if (user->BMI >= obesity->SevereThinness && user->BMI < obesity->ModerateThinness) {
+        user->Classification = obesity->ModerateThinness;
+    } else if (user->BMI >= obesity->ModerateThinness && user->BMI < obesity->MildThinness) {
+        user->Classification = obesity->MildThinness;
+    } else if (user->BMI >= obesity->MildThinness && user->BMI < obesity->Normal) {
+        user->Classification = obesity->Normal;
+    } else if (user->BMI >= obesity->Normal && user->BMI < obesity->Overweight) {
+        user->Classification = obesity->Overweight;
+    } else if (user->BMI >= obesity->Overweight && user->BMI < obesity->ObeseClassI) {
+        user->Classification = obesity->ObeseClassI;
+    } else if (user->BMI >= obesity->ObeseClassI && user->BMI < obesity->ObeseClassII) {
+        user->Classification = obesity->ObeseClassII;
+    } else if (user->BMI >= obesity->ObeseClassII && user->BMI < obesity->ObeseClassIII) {
+        user->Classification = obesity->ObeseClassIII;
+    } else {
+        user->Classification = obesity->obesity;
+    }
+}
 
-typedef struct 
-{
-   char underWeight;
-   char normal;
-   char overweight;
-   char obesity;
-} bodyType;
-
-typedef struct
-{
-
-uint8_t SevereThinness;	             //< 16
-uint8_t ModerateThinness;	         //16 - 17
-uint8_t MildThinness;	             //17 - 18.5
-uint8_t Normal;	                     //18.5 - 25
-uint8_t Overweight;	                 //25 - 30
-uint8_t ObeseClassI;	                 //30 - 35
-uint8_t ObeseClassII;	             //35 - 40
-uint8_t ObeseClassIII;	             //> 40
-
-}obesityType;
+void displayResults(userData *user) {
+    // Display BMI and classification results
+    printf("BMI: %.2f\n", user->BMI);
+    printf("Classification: %c\n", user->Classification);
+}
