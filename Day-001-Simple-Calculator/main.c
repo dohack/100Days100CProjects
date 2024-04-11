@@ -1,3 +1,13 @@
+/*
+
+Embarking on a 100 days, 100 C applications challenge.
+Day 001-Simple BMI Calculator.
+
+To build this project Run this command 
+
+"gcc main.c myCalculator.c -o Simple-Calculator"
+
+*/
 #include<stdio.h>     
 #include<stdint.h>     
 #include "myCalculator.h"  // Custom calculator header files

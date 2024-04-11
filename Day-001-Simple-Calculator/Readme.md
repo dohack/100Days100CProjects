@@ -2,7 +2,7 @@
 
 ## Project Description
 
-Welcome to Day 1 of the "100 Days, 100 C Projects" challenge! Today, we are creating a simple calculator program in C. This project is part of our journey into C programming mastery, where we aim to strengthen our coding skills and build a diverse portfolio of projects.
+Welcome to Day 1 of the "100 Days, 100 C Projects" challenge! Today, I'm creating a simple calculator program in C. This project is part of our journey into C programming mastery, where I aim to strengthen coding skills and build a diverse portfolio of projects.
 
 ## Project Overview
 
@@ -13,6 +13,10 @@ The Simple Calculator project allows users to perform basic arithmetic operation
 - Multiplication of two numbers.
 - Division of two numbers.
 - Modulus operation on two numbers.
+
+**Note**: The project is designed to be compiled and executed using only GCC commands for compilation, linking, and running the program. No build systems like Makefiles or CMake are utilized in this specific project, emphasizing direct command-line compilation with GCC.
+
+This project serves as an excellent opportunity to practice compiling C programs using GCC commands, understanding the compilation process, and managing dependencies manually.
 
 ## Project Structure
 
@@ -39,7 +43,7 @@ To run the Simple Calculator program:
 
 ## Project Contributors
 
-- [Your Name](https://www.linkedin.com/in/yourprofile): Project Lead
+- [Ankit Kumar](https://www.linkedin.com/in/ankit-kumar-4585b5284/): Project Lead
 
 ## Acknowledgments
 
