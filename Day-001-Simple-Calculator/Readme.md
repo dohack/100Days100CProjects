@@ -39,7 +39,7 @@ To run the Simple Calculator program:
 
 ## Project Contributors
 
-- [Your Name](https://www.linkedin.com/in/yourprofile): Project Lead
+- [Ankit Kumar](https://www.linkedin.com/in/yourprofile): Project Lead
 
 ## Acknowledgments
 
