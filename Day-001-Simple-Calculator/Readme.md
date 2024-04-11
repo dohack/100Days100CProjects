@@ -46,10 +46,6 @@ To run the Simple Calculator program:
 - [Ankit Kumar](https://www.linkedin.com/in/ankit-kumar-4585b5284/): Project Lead
 
 
-## Acknowledgments
-
-- Inspired by the "100 Days, 100 C Projects" challenge.
-
 ## Join the Challenge
 
 This project is part of the "100 Days, 100 C Projects" challenge, where I embark on a journey of C programming mastery. Join me in this epic adventure to enhance your coding skills and build an impressive portfolio of projects.
