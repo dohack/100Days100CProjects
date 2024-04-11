@@ -12,5 +12,6 @@ To build this project Run this command
 
 int main(void){
 
+printf("My BMI is : 0");
 	return 0;
 }
