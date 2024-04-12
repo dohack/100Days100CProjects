@@ -1,3 +1,6 @@
+Got it! Here's the updated README.md with the build command in the build folder:
+
+---
 
 # Day-004: Alarm Clock using time.h
 
@@ -24,8 +27,7 @@ Day-004-Alarm-Clock/
 │   ├── main.c
 │   └── alarm.c
 ├── build/
-├── README.md
-└── .gitignore
+└── README.md
 ```
 
 ## Usage
@@ -35,13 +37,17 @@ Day-004-Alarm-Clock/
    ```bash
    cd Day-004-Alarm-Clock/
    ```
-3. Compile the source code using GCC:
+3. Create the build directory if it doesn't exist:
    ```bash
-   gcc src/*.c -o alarmClock
+   mkdir build
    ```
-4. Run the executable:
+4. Compile the source code using GCC with include directory into the build folder:
    ```bash
-   ./alarmClock
+   gcc src/*.c -Iinclude -o build/alarmClock
+   ```
+5. Run the executable:
+   ```bash
+   ./build/alarmClock
    ```
 
 ## Challenges
@@ -54,11 +60,3 @@ Day-004-Alarm-Clock/
 
 - [C Time Library - time.h](https://www.tutorialspoint.com/c_standard_library/time_h.htm)
 - [GCC Command Line Options](https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html)
-
-## Note
-
-This project uses the `time.h` library for time-related functions. Make sure to compile with the necessary flags to link the library correctly.
-
----
-
-Feel free to customize the content further based on your preferences or additional information you'd like to include!
