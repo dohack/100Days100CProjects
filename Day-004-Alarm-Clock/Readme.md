@@ -1,7 +1,3 @@
-Got it! Here's the updated README.md with the build command in the build folder:
-
----
-
 # Day-004: Alarm Clock using time.h
 
 ## Overview
