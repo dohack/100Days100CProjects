@@ -1,5 +1,4 @@
 # Day-004: Alarm Clock using time.h and windows.h
-### Day-004: Alarm Clock Challenge
 
 #### Introduction
 The Alarm Clock project aims to create a simple alarm clock application in C that allows users to set an alarm time and receive a notification when the alarm time is reached. This project enhances your understanding of C programming fundamentals, time handling, user input, and basic application development.
