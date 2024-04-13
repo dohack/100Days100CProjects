@@ -1,4 +1,4 @@
-# Day-004: Alarm Clock using time.h
+# Day-004: Alarm Clock using time.h and windows.h
 ### Day-004: Alarm Clock Challenge
 
 #### Introduction
@@ -32,6 +32,7 @@ To build the Alarm Clock application, follow these steps:
 1. Clone the GitHub repository: [https://github.com/dohack/100Days100CProjects](https://github.com/dohack/100Days100CProjects)
 2. Navigate to the Day-004-Alarm-Clock directory.
 3. Compile the source files using the following command:
+
    ```bash
    gcc src/* -Iinclude -o build/alarmClock
    ```
