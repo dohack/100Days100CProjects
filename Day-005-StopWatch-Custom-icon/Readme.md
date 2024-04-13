@@ -1,5 +1,5 @@
 # Day-005: Stop-Timer with Custom Icon for exe file
-![Stop-Timer Icon](stopwatch.ico)
+![Stop-Watch Icon](stopWatch.ico)
 
 #### Introduction
 The Stop-Timer project is an enhancement of the previous Alarm Clock project from Day 004. In this project, we have developed a simple command-line Stopwatch application using C. The Stopwatch allows users to start, stop, reset, and display the elapsed time.
