@@ -39,8 +39,12 @@ Day-005-Stop-Timer/
 #### How to Build
 To build the Stop-Timer application on Windows, follow these steps:
 1. Compile the source files and resource file using the following command:
+
+   ```bash 
+   gcc main.c stopTimer.c resource.o -o stopWatch
+   ```
+
    ```bash
-   windres resource.rc -o resource.o
    gcc main.c stopTimer.c resource.o -o stopWatch
    ```
 
