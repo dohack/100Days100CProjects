@@ -5,6 +5,7 @@
 #include <time.h>
 #include <stdlib.h>  // Include stdlib.h for malloc function
 #include <conio.h>  // For _kbhit and _getch functions
+#include <windows.h>  // For SetConsoleTitle function
 
 // Stopwatch structure
 typedef struct {

@@ -1,7 +1,10 @@
 #include "stopWatch.h"
-#include <conio.h>  // For _kbhit and _getch functions
+
 
 int main() {
+
+    SetConsoleTitle("StopWatch");// Custom Title for windows exe file
+
     Stopwatch *stopwatch = createStopwatch();
     if (stopwatch == NULL) {
         return 1;  // Exit with error code if stopwatch creation fails
