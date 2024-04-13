@@ -4,8 +4,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdlib.h>
 #include <string.h>
+#include <Windows.h>  // For Sleep and Beep functions
 
 typedef struct {
     int hours;

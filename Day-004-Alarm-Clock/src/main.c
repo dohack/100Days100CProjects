@@ -1,21 +1,24 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 #include <Windows.h>  // For Sleep and Beep functions
-#include "alarm_clock.h"
 
 int main() {
     time_t rawtime;
     struct tm *timeinfo;
     char currentTime[80];
-    char alarmTime[80];
+    char alarmTimeInput[80];
+    struct tm alarmTime = {0};  // Initialize alarmTime struct
+
     int alarmDuration = 10;  // Alarm duration in seconds
     char displayOption;
 
     // Get display option from user
     printf("Choose display option (N for newline, R for carriage return): ");
-    scanf(" %c", &displayOption);
+    if (scanf(" %c", &displayOption) != 1 || (displayOption != 'N' && displayOption != 'R')) {
+        printf("Invalid display option. Please enter N or R.\n");
+        return 1;  // Exit with error code
+    }
 
     // Get current time
     time(&rawtime);
@@ -30,14 +33,29 @@ int main() {
 
     // Set alarm time
     printf("\nSet alarm time (format: HH:MM): ");
-    scanf("%s", alarmTime);
+    if (scanf("%s", alarmTimeInput) != 1 ||
+        sscanf(alarmTimeInput, "%d:%d", &alarmTime.tm_hour, &alarmTime.tm_min) != 2) {
+        printf("Invalid input format. Please enter the alarm time in HH:MM format.\n");
+        return 1;  // Exit with error code
+    }
 
-    // Initialize alarm
-    Alarm *alarm = createAlarm(alarmTime);
+    // Get the current time again for accurate comparison
+    time(&rawtime);
+    timeinfo = localtime(&rawtime);
+
+    // Calculate the seconds until the alarm time
+    long secondsUntilAlarm = (alarmTime.tm_hour - timeinfo->tm_hour) * 3600 +
+                             (alarmTime.tm_min - timeinfo->tm_min) * 60 -
+                             timeinfo->tm_sec;
+
+    // Handle cases where the alarm time is already past for the current day
+    if (secondsUntilAlarm <= 0) {
+        printf("Alarm time should be set for a future time.\n");
+        return 1;  // Exit with error code
+    }
 
     // Loop until alarm time is reached
-    while (!isAlarmTime(alarm)) {
-        Sleep(1000);  // Delay for 1 second
+    while (1) {
         time(&rawtime);
         timeinfo = localtime(&rawtime);
         strftime(currentTime, sizeof(currentTime), "%Y-%m-%d %H:%M:%S", timeinfo);
@@ -46,6 +64,13 @@ int main() {
         } else {
             printf("Current time: %s\n", currentTime);  // Update in new line
         }
+
+        // Check if it's time for the alarm
+        if (timeinfo->tm_hour == alarmTime.tm_hour && timeinfo->tm_min == alarmTime.tm_min) {
+            break;
+        }
+
+        Sleep(1000);  // Delay for 1 second
     }
 
     // Trigger alarm alert
@@ -56,9 +81,6 @@ int main() {
         Beep(1000, 500);  // Beep at 1000 Hz for 0.5 seconds
         Sleep(500);       // Delay for 0.5 seconds
     }
-
-    // Clean up
-    free(alarm);
 
     return 0;
 }
