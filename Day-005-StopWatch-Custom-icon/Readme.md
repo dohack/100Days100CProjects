@@ -6,7 +6,7 @@ The Stop-Timer project is an enhancement of the previous Alarm Clock project fro
 
 This project builds upon the concepts learned in the [Alarm Clock project](https://github.com/dohack/100Days100CProjects/tree/main/Day-004-Alarm-Clock), including time handling, user input validation, and basic application development in C.
 
-![Stop-Watch App](stopWatch.png)
+![Stop-Watch App](stopWatch.PNG)
 
 ## Features
 
