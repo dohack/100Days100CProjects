@@ -1,4 +1,3 @@
-```markdown
 # Day-005: Stop-Timer with Custom Icon for exe file
 ![Stop-Timer Icon](stoptimer.ico)
 
