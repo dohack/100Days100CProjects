@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "time.h": "c"
+        "time.h": "c",
+        "alarm_clock.h": "c",
+        "string.h": "c"
     }
 }

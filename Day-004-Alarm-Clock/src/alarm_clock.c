@@ -1,21 +1,30 @@
 #include "alarm_clock.h"
 
-void currentTime(void){
-    time_t currentTime;
-    time(&currentTime);
-    printf("Current time: %s", ctime(&currentTime));
-  
+
+
+Alarm *createAlarm(const char *alarmTime) {
+    Alarm *alarm = (Alarm *)malloc(sizeof(Alarm));
+    if (alarm == NULL) {
+        return NULL;
+    }
+
+    char *token = strtok((char *)alarmTime, ":");
+    alarm->hours = atoi(token);
+    token = strtok(NULL, ":");
+    alarm->minutes = atoi(token);
+
+    return alarm;
 }
 
-void customTime(void){
-    struct tm customTime = {0}; // Initialize struct with zeros
-    customTime.tm_year = 121; // 2021 (years since 1900)
-    customTime.tm_mon = 6; // July (0-11)
-    customTime.tm_mday = 4; // 4th
-    customTime.tm_hour = 15; // 3 PM
-    customTime.tm_min = 30; // 30 minutes
-    customTime.tm_sec = 0; // 0 seconds
+int isAlarmTime(const Alarm *alarm) {
+    time_t rawtime;
+    struct tm *timeinfo;
+    int currentHours, currentMinutes;
 
-    time_t customTime_t = mktime(&customTime);
-    printf("Custom time: %s", ctime(&customTime_t));
+    time(&rawtime);
+    timeinfo = localtime(&rawtime);
+    currentHours = timeinfo->tm_hour;
+    currentMinutes = timeinfo->tm_min;
+
+    return (currentHours == alarm->hours && currentMinutes == alarm->minutes);
 }
