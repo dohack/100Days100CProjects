@@ -4,12 +4,15 @@
 #### Introduction
 The Stop-Timer project is an enhancement of the previous Alarm Clock project from Day 004. In this project, we have developed a simple command-line Stopwatch application using C. The Stopwatch allows users to start, stop, reset, and display the elapsed time.
 
-This project builds upon the concepts learned in the Alarm Clock project, including time handling, user input validation, and basic application development in C.
+This project builds upon the concepts learned in the [Alarm Clock project](https://github.com/dohack/100Days100CProjects/tree/main/Day-004-Alarm-Clock), including time handling, user input validation, and basic application development in C.
+
+![Stop-Watch App](stopWatch.png)
 
 ## Features
 
+- StopWatch inclusion of Custom Icon for exe file 
 - Start the Stopwatch to measure elapsed time.
-- Stop the Stopwatch to freeze the elapsed time display.
+- Stop the Stopwatch to freeze the elapsed time display and start again.
 - Reset the Stopwatch to zero.
 - Display the elapsed time continuously in the console.
 
@@ -26,10 +29,11 @@ Day-005-Stop-Timer/
 ├── main.c
 ├── resource.o
 ├── resource.rc
-├── stopTimer.c
-├── stopTimer.exe
-├── stopTimer.h
-└── stoptimer.ico
+├── stopWatch.c
+├── stopWatch.exe
+├── stopWatch.h
+└── stopWatch.ico
+└── stopWatch.png
 ```
 
 #### How to Build
@@ -60,13 +64,10 @@ Some potential challenges you might encounter while working on this project incl
 
 #### GitHub Repository
 Explore the main GitHub repository for more projects and updates:
-[https://github.com/your-username/Day-005-Stop-Timer](https://github.com/your-username/Day-005-Stop-Timer)
+[https://github.com/dohack/100Days100CProjects/](https://github.com/dohack/100Days100CProjects/)
 
 #### LinkedIn Profile
 Connect with me on LinkedIn:
-[Your Name - LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/)
+[Ankit Kumar - LinkedIn](https://www.linkedin.com/in/ankit-kumar-4585b5284/)
 
 This project contributes to the ongoing 100 Days, 100 C Projects challenge. Stay tuned for more exciting projects and challenges!
-```
-
-Replace `your-username` with your actual GitHub username and ensure that the compilation and execution instructions are tailored to your specific setup.
