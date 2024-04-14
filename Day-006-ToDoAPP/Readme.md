@@ -5,7 +5,7 @@
 #### Introduction
 The Command-Line To-Do App project is a simple yet effective implementation of a to-do list application using the C programming language. The app allows users to manage tasks by adding, viewing, marking as complete, saving to a file, and loading from a file. This project aims to reinforce core programming concepts such as structures, file handling, user input, and modular programming in C.
 
-![To-Do App](toDoApp.png)
+![To-Do App](toDoApp.PNG)
 
 ## Features
 
