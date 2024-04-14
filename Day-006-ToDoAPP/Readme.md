@@ -78,4 +78,4 @@ Connect with me on LinkedIn:
 
 This project contributes to the ongoing [100 Days, 100 C Projects challenge](https://github.com/dohack/100Days100CProjects/). Stay tuned for more exciting projects and challenges!
 
-[ICON bu ICON8](https://icons8.com/icon/6650/inspection)
+[ICON by ICON8](https://icons8.com/icon/6650/inspection)
