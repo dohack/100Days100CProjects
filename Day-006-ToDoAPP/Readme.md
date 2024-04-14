@@ -77,5 +77,5 @@ Connect with me on LinkedIn:
 [Ankit Kumar - LinkedIn](https://www.linkedin.com/in/ankit-kumar-4585b5284/)
 
 This project contributes to the ongoing [100 Days, 100 C Projects challenge](https://github.com/dohack/100Days100CProjects/). Stay tuned for more exciting projects and challenges!
-```
+
 [ICON bu ICON8](https://icons8.com/icon/6650/inspection)
