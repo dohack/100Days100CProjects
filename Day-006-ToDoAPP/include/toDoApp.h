@@ -1,6 +1,10 @@
 #ifndef TODOAPP_H
 #define TODOAPP_H
 
+#include <stdio.h>
+#include <windows.h>
+#include <string.h>
+
 #define MAX_TASKS 100 // Define maximum number of tasks
 
 // Define task structure

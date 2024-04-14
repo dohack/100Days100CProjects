@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <string.h>
 #include "toDoApp.h"
 
 void addTask(Task *taskList, int *taskCount) {

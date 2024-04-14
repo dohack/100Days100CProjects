@@ -1,7 +1,8 @@
-#include <stdio.h>
 #include "toDoApp.h"
 
 int main() {
+
+    SetConsoleTitle("ToDoApp");
     Task taskList[100]; // Assuming a maximum of 100 tasks
     int taskCount = 0;
     int choice;
