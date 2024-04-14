@@ -1,11 +1,11 @@
 # Day-006: Command-Line To-Do App in C
 
-![To-Do App Icon](todoApp.ico)
+![To-Do App Icon](toDoApp.ico)
 
 #### Introduction
 The Command-Line To-Do App project is a simple yet effective implementation of a to-do list application using the C programming language. The app allows users to manage tasks by adding, viewing, marking as complete, saving to a file, and loading from a file. This project aims to reinforce core programming concepts such as structures, file handling, user input, and modular programming in C.
 
-![To-Do App](todoApp.png)
+![To-Do App](toDoApp.png)
 
 ## Features
 
@@ -66,21 +66,16 @@ Some potential challenges you might encounter while working on this project incl
 - Add sorting functionality to sort tasks based on ID or status.
 - Implement editing and deleting tasks from the to-do list.
 - Create a user-friendly interface with colored output and clearer instructions.
+- ADD GUI
 
 #### GitHub Repository
-Explore the main GitHub repository for more projects and updates:
-[https://github.com/yourusername/Command-Line-To-Do-App/](https://github.com/yourusername/Command-Line-To-Do-App/)
+Explore my GitHub repository for more projects and updates:
+[https://github.com/dohack](https://github.com/dohack)
 
 #### LinkedIn Profile
 Connect with me on LinkedIn:
-[Your Name - LinkedIn](https://www.linkedin.com/in/yourprofile/)
+[Ankit Kumar - LinkedIn](https://www.linkedin.com/in/ankit-kumar-4585b5284/)
 
-This project contributes to the ongoing 100 Days, 100 C Projects challenge. Stay tuned for more exciting projects and challenges!
+This project contributes to the ongoing [100 Days, 100 C Projects challenge](https://github.com/dohack/100Days100CProjects/). Stay tuned for more exciting projects and challenges!
 ```
-
-In this README file update:
-
-- I've corrected the folder structure to match the actual directory layout of your project.
-- Added instructions on how to use the Makefile to build the project.
-- Included challenges for extending the functionality of the to-do app.
-- Provided placeholders for your GitHub repository link and LinkedIn profile link, which you should replace with your actual links.
+[ICON bu ICON8](https://icons8.com/icon/6650/inspection)
