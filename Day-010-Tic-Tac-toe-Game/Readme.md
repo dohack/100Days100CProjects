@@ -111,5 +111,4 @@ Player X wins!
 
 This project provides a foundational implementation of tic-tac-toe in C, demonstrating basic game logic and player interaction through the command line. It serves as a starting point for more complex implementations or integrations into larger projects.
 
-
-This tic-tac-toe implementation is part of the "(100 days 100 C program challenge")[https://github.com/dohack/100Days100CProjects], aiming to improve proficiency in C programming through daily coding projects.
+This tic-tac-toe implementation is part of the "[100 days 100 C program challenge](https://github.com/dohack/100Days100CProjects)", aiming to improve proficiency in C programming through daily coding projects.
